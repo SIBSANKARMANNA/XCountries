@@ -30,7 +30,7 @@ export default function Countries() {
     return (
         <Grid container spacing={2} sx={{ maxWidth: 1400, margin: '0 auto', padding: 2 }}>
             {countries.map((country) => (
-                <Card key={country.abbr} sx={{ width: 165, height: 160 }}>
+                <Card key={country.abbr} sx={{ width: 175, height: 160 }}>
                     <CardContent>
                         <CardMedia
                             component="img"
