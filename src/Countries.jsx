@@ -38,7 +38,7 @@ export default function Countries() {
                             image={country.flag}
                             alt={`${country.name} flag`}
                         />
-                        <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: 'center', marginTop: 1 }}>
+                        <Typography gutterBottom variant="h6" component="div" sx={{ textAlign: 'center', marginTop: 1 }}>
                             {country.name}
                         </Typography>
                     </CardContent>
