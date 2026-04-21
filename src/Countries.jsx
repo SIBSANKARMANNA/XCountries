@@ -34,7 +34,7 @@ export default function Countries() {
                     <CardContent>
                         <CardMedia
                             component="img"
-                            sx={{ objectFit: 'cover', height: 80, width: '70%',margin: '0 auto' }}
+                            sx={{ objectFit: 'cover', height: 70, width: '70%',margin: '0 auto' }}
                             image={country.flag}
                             alt={`${country.name} flag`}
                         />
